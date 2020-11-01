@@ -9,3 +9,14 @@ NOTE: everything is typeset in italian.
 - README.md is the file you are reading.
 
 NOTE: The previously included latex-project files have been removed, as unessential and distracting. They are of course still available through commit history.
+
+-------------------------------------
+Index of Exercises:
+
+1. Random number generators. Marsenne-Twister vs Linear Congruential Method.
+2. Round-off errors and numerical noncommutativity of arithmetics.
+3. Minimization on nontrivial manifolds. Nelder-Mead "amoeba" method.
+4. Montecarlo. Importance vs Stratified samplings.
+5. Smoothing and peak-recognition on noisy data.
+6. Simulated Smearing vs Unfolding; matching theory with experiments.
+7. MVA for a simple classification problem.
