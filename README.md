@@ -8,4 +8,4 @@ NOTE: everything is typeset in italian.
 
 - README.md is the file you are reading.
 
-Note: The previously included latex-project files have been removed, as unessential and distracting. They are of course still available through commit history.
+NOTE: The previously included latex-project files have been removed, as unessential and distracting. They are of course still available through commit history.
