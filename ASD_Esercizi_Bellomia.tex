@@ -1,0 +1,135 @@
+\documentclass[]{report}
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{titlepic}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{eucal}
+\DeclareMathAlphabet{\mathpzc}{OMS}{cmsy}{m}{n}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage[caption = false]{subfig}
+\usepackage{caption}
+\captionsetup{justification=justified,singlelinecheck=on, format=hang} % format=hang
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage[hang,flushmargin]{footmisc}
+\usepackage{comment}
+\usepackage{hyperref}
+\hypersetup{
+	bookmarks=true,         % show bookmarks bar?
+	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdftoolbar=true,        % show Acrobat’s toolbar?
+	pdfmenubar=true,        % show Acrobat’s menu?
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Esercizi Analisi Statistica dei Dati 2016/2017},    % title
+	pdfauthor={Gabriele Bellomia},     % author
+	pdfsubject={Laurea Magistrale in Fisica},   % subject of the document
+	pdfcreator={PdfLaTeX},   % creator of the document
+	pdfproducer={TeXstudio}, % producer of the document
+	pdfkeywords={keyword1, key2, key3}, % list of keywords
+	pdfnewwindow=true,      % links in new PDF window
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=black,          % color of internal links (change box color with linkbordercolor)
+	citecolor=green,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=blue           % color of external links
+}
+
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codeblue}{rgb}{0.3,0.5,0.9}
+\definecolor{codeorange}{rgb}{0.5,0.2,0}
+\definecolor{backcolour}{rgb}{0.97,0.97,0.97}
+
+\lstdefinestyle{Rstyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{codeblue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codeblue},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstdefinestyle{Pystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codeorange},
+	keywordstyle=\color{codeblue},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codeblue},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{linewidth=\textwidth}
+
+\renewcommand{\lstlistlistingname}{Lista dei codici}
+
+
+% Title Page
+\title{\textbf{Analisi Statistica dei Dati\\ - Esercizi Svolti - }}
+\author{\textbf{Gabriele Bellomia}\\ \texttt{Matricola 821904}}
+\date{}
+% Uni Logo
+\titlepic{\includegraphics[width=6.5cm]{Immagini/LogoUnimib.pdf}\\ \bigskip \includegraphics[width=5.8cm]{Immagini/WhiteNoiseArt.pdf}\\ \bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+{\textbf{A.A. 2016/2017}}}
+
+\begin{document}
+\maketitle
+\null
+\thispagestyle{empty}
+\clearpage
+\setcounter{page}{1}
+\setcounter{secnumdepth}{-2}
+
+% Index
+\tableofcontents{}
+\newpage
+
+%Exercises
+
+\null \newpage
+
+\input{Introduzione.tex}
+\input{Es1.tex}
+\input{Es2.tex}
+\input{Es3.tex}
+\input{Es4.tex}
+\input{Es5.tex}
+\input{Es6.tex}
+\input{Es7.tex}
+
+\lstlistoflistings
+\addcontentsline{toc}{section}{Lista dei codici}\label{listoflistings}
+
+\newpage
+\null
+\thispagestyle{empty}
+
+\end{document}          
