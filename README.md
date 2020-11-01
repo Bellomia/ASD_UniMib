@@ -1,4 +1,4 @@
-# ASD_UniMib
+# ASD @ UniMib
 Codes for the Data Analysis exam at UniMib [2016/17]
 
 - Script&Data contains the Python and R scripts for the various exercises
